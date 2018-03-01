@@ -3,7 +3,6 @@ body {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
-    color: #EF8354;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -12,22 +11,62 @@ body {
 
 }
 
-header  {
+
+.navbar-brand {
+
+  font-weight: bold;
+}
+
+ article h2 {
+  color: #FE5F55;
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+span{
+		font-size: 25px;
+    color: black;
+		animation: blink 1.3s linear infinite;
+	}
+header, footer {
     text-align: center;
-    color: #EF8354;
-    margin: 0 20% 5% 20%;
-    background-color: #4F5D75;
+    color: #D8DBE2;
+    margin: 0 0% 5% 0%;
+    background-color: #313638;
     padding: 2em;
-    border-radius: 10px;
 
 
 }
-
-#navb {
-    padding: 10%;
-    background-color: white;
+article {
+  color: #4F6367;
+  padding: 3%;
 }
 
+
+div h3 {
+  color: #7A9E9F;
+  margin: 5%;
+  text-align: center;
+}
+
+.col-sm-4 {
+  background-color: white;
+  color: #4F6367;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.Icons {
+  text-align: center;
+}
+a {
+  align-items: center;
+  align: center;
+}
 h5 {
     color: #BFC0C0;
 }
@@ -35,14 +74,12 @@ h5 {
 main  {
     text-align: center;
     color: #EF8354;
-    margin: 0 20% 0% 20%;
-    background-color: #4F5D75;
+    background-color: #EEF5DB;
     padding: 2em;
-    border-radius: 10px;
+    margin-top: 20%;
 
 }
 
 main p {
-    color: #FFFFFF;
+    color: #4F6367;
 }
-
