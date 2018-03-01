@@ -19,6 +19,8 @@ body {
 
  article h2 {
   color: #FE5F55;
+  font-weight: bold;
+
 }
 
 @keyframes blink{
@@ -27,8 +29,18 @@ body {
 100%{opacity: 1;}
 }
 
+.Title {
+ align-content: center;
+ text-align: center;
+ margin: 5%;
+ padding: 2%;
+ color: black;
+ background-color: white;
+opacity: 0.7;
+}
+
 span{
-		font-size: 25px;
+		font-size: 20px;
     color: black;
 		animation: blink 1.3s linear infinite;
 	}
@@ -48,8 +60,9 @@ article {
 
 
 div h3 {
-  color: #7A9E9F;
-  margin: 5%;
+  font-weight: bold;
+  color: #E8DD43;
+
   text-align: center;
 }
 
@@ -57,7 +70,10 @@ div h3 {
   background-color: white;
   color: #4F6367;
   text-align: left;
-  padding-left: 10%;
+  padding: 3%;
+  -webkit-box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
+-moz-box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
+box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
 }
 
 .Icons {
