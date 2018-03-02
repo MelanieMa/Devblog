@@ -1,12 +1,12 @@
 body {
-    background-image: url('Images/back.jpg');
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: auto;
+  background-image: url('Images/back.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
 
 
 }
@@ -17,39 +17,39 @@ body {
   font-weight: bold;
 }
 
- article h2 {
+article h2 {
   color: #FE5F55;
   font-weight: bold;
 
 }
 
 @keyframes blink{
-0%{opacity: 0;}
-50%{opacity: .5;}
-100%{opacity: 1;}
+  0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}
 }
 
 .Title {
- align-content: center;
- text-align: center;
- margin: 5%;
- padding: 2%;
- color: black;
- background-color: white;
-opacity: 0.7;
+  align-content: center;
+  text-align: center;
+  margin: 5%;
+  padding: 2%;
+  color: black;
+  background-color: white;
+  opacity: 0.7;
 }
 
 span{
-		font-size: 20px;
-    color: black;
-		animation: blink 1.3s linear infinite;
-	}
+  font-size: 20px;
+  color: black;
+  animation: blink 1.3s linear infinite;
+}
 header, footer {
-    text-align: center;
-    color: #D8DBE2;
-    margin: 0 0% 5% 0%;
-    background-color: #313638;
-    padding: 2em;
+  text-align: center;
+  color: #D8DBE2;
+  margin: 0 0% 5% 0%;
+  background-color: #313638;
+  padding: 2em;
 
 
 }
@@ -72,9 +72,10 @@ div h3 {
   text-align: left;
   padding: 3%;
   -webkit-box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
--moz-box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
-box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
+  -moz-box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
+  box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
 }
+
 
 .Icons {
   text-align: center;
@@ -84,18 +85,18 @@ a {
   align: center;
 }
 h5 {
-    color: #BFC0C0;
+  color: #BFC0C0;
 }
 
 main  {
-    text-align: center;
-    color: #EF8354;
-    background-color: #EEF5DB;
-    padding: 2em;
-    margin-top: 20%;
+  text-align: center;
+  color: #EF8354;
+  background-color: #EEF5DB;
+  padding: 2em;
+  margin-top: 20%;
 
 }
 
 main p {
-    color: #4F6367;
+  color: #4F6367;
 }
