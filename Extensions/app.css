@@ -6,13 +6,27 @@ body {
   height: auto;
   font-weight: bold;
   background: #808080;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: -webkit-linear-gradient(to bottom, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 }
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+
+}
+#toDo {
+  background: white;  /* fallback for old browsers */
+
+}
+#toDo a {
+  color: #2B4162;
+
+}
 
 .navbar-brand {
 
@@ -20,7 +34,7 @@ body {
 }
 
 article h2 {
-  color: #FE5F55;
+  color: #2B4162;
   font-weight: bold;
 
 }
@@ -35,9 +49,10 @@ article h2 {
   align-content: center;
   text-align: center;
   padding: 10%;
-  color: black;
+  color: #54494B;
   background-color: white;
   opacity: 0.4;
+  font-family: 'Roboto', sans-serif;
 }
 
 span{
@@ -62,14 +77,14 @@ article {
 
 div h3 {
   font-weight: bold;
-  color: #E8DD43;
+  color: #FFCB47;
 
   text-align: center;
 }
 
 .col-sm-4 {
   background-color: white;
-  color: #4F6367;
+  color: #E3D081;
   text-align: left;
   padding: 3%;
   margin-top: 3%;
@@ -81,7 +96,7 @@ max-height: 500px;
 
 .jumbotron {
 
-  margin:  0% 10% 0 10%;
+  margin:  0% 12% 0 12%;
   border-radius: 0px 0px 32px 31px;
  -moz-border-radius: 0px 0px 32px 31px;
  -webkit-border-radius: 0px 0px 32px 31px;
