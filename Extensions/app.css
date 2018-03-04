@@ -1,12 +1,14 @@
 body {
-  background-image: url('Images/back.jpg');
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
-  background-size: cover;
   background-attachment: fixed;
   width: 100%;
   height: auto;
+  font-weight: bold;
+  background: #808080;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 
 }
@@ -32,11 +34,10 @@ article h2 {
 .Title {
   align-content: center;
   text-align: center;
-  margin: 5%;
-  padding: 2%;
+  padding: 10%;
   color: black;
   background-color: white;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 span{
@@ -71,15 +72,30 @@ div h3 {
   color: #4F6367;
   text-align: left;
   padding: 3%;
-  -webkit-box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
-  -moz-box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
-  box-shadow: 11px 10px 46px 0px rgba(254,95,85,1);
+  margin-top: 3%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(192,197,207,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(192,197,207,1);
+box-shadow: 10px 10px 5px 0px rgba(192,197,207,1);
+max-height: 500px;
 }
 
+.jumbotron {
+
+  margin:  0% 10% 0 10%;
+  border-radius: 0px 0px 32px 31px;
+ -moz-border-radius: 0px 0px 32px 31px;
+ -webkit-border-radius: 0px 0px 32px 31px;
+ border: 0px solid #000000;
+Copy Text
+text-align: center;
+
+}
 
 .Icons {
   text-align: center;
 }
+
+
 a {
   align-items: center;
   align: center;
@@ -88,15 +104,16 @@ h5 {
   color: #BFC0C0;
 }
 
-main  {
-  text-align: center;
-  color: #EF8354;
-  background-color: #EEF5DB;
-  padding: 2em;
-  margin-top: 20%;
 
-}
 
 main p {
   color: #4F6367;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
 }
