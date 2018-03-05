@@ -1,10 +1,6 @@
 body {
-  background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
-  background-attachment: fixed;
   width: 100%;
-  height: auto;
-  font-weight: bold;
   background: #808080;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -15,16 +11,18 @@ body {
 * {
   font-family: 'Roboto', sans-serif;
 }
-html {
-  font-family: 'Roboto', sans-serif;
 
-}
 #toDo {
   background: white;  /* fallback for old browsers */
 
 }
 #toDo a {
   color: #2B4162;
+
+}
+
+article {
+  font-size: 20px;
 
 }
 
@@ -39,20 +37,14 @@ article h2 {
 
 }
 
+article P {
+  text-align: center;
+}
+
 @keyframes blink{
   0%{opacity: 0;}
   50%{opacity: .5;}
   100%{opacity: 1;}
-}
-
-.Title {
-  align-content: center;
-  text-align: center;
-  padding: 10%;
-  color: #54494B;
-  background-color: white;
-  opacity: 0.4;
-  font-family: 'Roboto', sans-serif;
 }
 
 span{
@@ -60,11 +52,46 @@ span{
   color: black;
   animation: blink 1.3s linear infinite;
 }
+
+li {
+    list-style-type: none;
+}
+
+.Title {
+  align-content: center;
+  text-align: center;
+  padding: 10%;
+  color: #6D454C;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(295deg, #37bd9b, #bd37b8, #7cc2e3, #7ac383, #f38df3);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
+}
+}
+
+
 header, footer {
   text-align: center;
   color: #D8DBE2;
   margin: 0 0% 5% 0%;
-  background-color: #313638;
   padding: 2em;
 
 
@@ -74,7 +101,9 @@ article {
   padding: 3%;
 }
 
-
+nav a {
+  margin: 1% 0% 1% 12%;
+}
 div h3 {
   font-weight: bold;
   color: #FFCB47;
@@ -84,26 +113,27 @@ div h3 {
 
 .col-sm-4 {
   background-color: white;
-  color: #E3D081;
+  color: #19647E;
   text-align: left;
   padding: 3%;
   margin-top: 3%;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(192,197,207,1);
--moz-box-shadow: 10px 10px 5px 0px rgba(192,197,207,1);
-box-shadow: 10px 10px 5px 0px rgba(192,197,207,1);
-max-height: 500px;
+  -moz-box-shadow: 10px 10px 5px 0px rgba(192,197,207,1);
+  box-shadow: 10px 10px 5px 0px rgba(192,197,207,1);
+  max-height: 600px;
+  background-color: #fceff9;
+
 }
 
 .jumbotron {
 
   margin:  0% 12% 0 12%;
-  border-radius: 0px 0px 32px 31px;
- -moz-border-radius: 0px 0px 32px 31px;
- -webkit-border-radius: 0px 0px 32px 31px;
- border: 0px solid #000000;
-Copy Text
-text-align: center;
-
+  border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 32px 31px;
+  -webkit-border-radius: 0px 0px 32px 31px;
+  border: 0px solid #000000;
+  text-align: center;
+  background-color: #EAF2E3 !important;
 }
 
 .Icons {
@@ -131,4 +161,29 @@ main p {
   position: fixed;
   top: 0;
   width: 100%
+}
+
+.fish {
+
+    position: relative;
+    -webkit-animation: myfirst 5s 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes myfirst {
+    0%   {background:  left: 0px; top: 0px;}
+    25%  {background:  left: 200px; top: 0px;}
+    50%  {background: left: 200px; top: 200px;}
+    75%  {background:  left: 0px; top: 200px;}
+    100% {background: left: 0px; top: 0px;}
+}
+
+@keyframes myfirst {
+    0%   {background left: 0px; top: 0px;}
+    25%  {background: left: 200px; top: 0px;}
+    50%  {background: left: 200px; top: 200px;}
+    75%  {background:  left: 0px; top: 200px;}
+    100% {background: left: 0px; top: 0px;}
 }
